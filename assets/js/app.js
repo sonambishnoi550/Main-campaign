@@ -28,7 +28,6 @@ $('.slick-slider').slick({
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
-
     responsive: [
         {
             breakpoint: 1024,
