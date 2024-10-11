@@ -47,6 +47,9 @@
                         '2xl': '1440px',
                     },
                 },
+                  boxShadow: {           
+                    'common-shadow': '0px 4px 30px 0px #00000026',
+                }
             }
         }
     </script>
@@ -215,12 +218,16 @@
         .leading-120 {
             line-height: 120% !important;
         }
+
+        .slick-dots li button:before {
+            font-size: 14px !important;
+      }
     </style>
 </head>
 
 <body>
     <!-----------------hero section ------->
-    <section class="lg:pt-20 sm:py-16 py-12 relative max-w-[1920px] mx-auto px-3 lg:pb-36">
+    <section class="lg:pt-20 sm:py-16 py-12 relative max-w-[1920px] mx-auto px-3 2xl:pb-36 md:pb-28">
         <img src="assets/images/webp/hero-sideimage.webp" alt="sideimage"
             class="absolute top-0 right-0 -z-10 2xl:max-w-[1440px] xl:max-w-[1070px] lg:max-w-[800px] md:max-w-[565px] max-w-[379px] sm:block hidden">
         <div class="container">
@@ -228,7 +235,9 @@
                 <a href=""><img src="assets/images/webp/logo.webp" alt="logo"
                         class="md:max-w-[200px] max-w-[150px]"></a>
                 <div class="flex md:gap-12 max-md:flex-col gap-4">
-                    <a href="" class="font-semibold text-sm leading-4 text-black pt-3 max-md:pl-2">Login or Register</a>
+                    <a href=""
+                        class="font-semibold text-sm leading-4 text-black pt-3 max-md:pl-2 hover:text-black hover:border-[#3b5998] hover:border-2 py-3 px-5 rounded-full">Login
+                        or Register</a>
                     <button
                         class="font-semibold text-sm leading-4 text-white bg-blue py-3 px-5 rounded-full hover:bg-white hover:text-black border-[#3b5998] border-2">
                         Start Free Trial
@@ -236,39 +245,39 @@
                 </div>
             </div>
             <h2
-                class="font-bold xl:text-[80px] lg:text-6xl md:text-5xl text-3xl xl:leading-[95px] lg:leading-[70px] md:leading-[52px] leading-9 max-w-[1317px] text-center mx-auto lg:pt-[73px] pt-12">
+                class="font-bold 2xl:text-[80px] lg:text-6xl md:text-5xl text-3xl xl:leading-[95px] lg:leading-[70px] md:leading-[52px] leading-9 max-w-[1317px] text-center mx-auto lg:pt-[73px] pt-6">
                 The Most
-                Powerful Offline Lead Conversion Data for your<span class="text-white max-sm:text-gray-400">Business.
+                Powerful Offline Lead Conversion Data for your <span class="text-white max-sm:text-gray-400">Business.
                 </span>
             </h2>
-            <p class="text-gray-200 text-center pt-4 font-normal text-xl leading-6">Seamless integration with your CRM
+            <p class="text-gray-200 text-center pt-4 font-normal sm:text-xl text-base leading-6 max-sm:text-black">Seamless integration with your CRM
                 and Facebook</p>
             <input type="email" placeholder="Enter you work email" id="email"
-                class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[570px] w-[270px] mx-auto flex lg:mt-[38px] mt-7 max-lg:border-2 border-[gray-400] rounded-full outline-none">
-            <div class="relative lg:mt-28 md:mt-16 sm:mt-12 mt-8">
+                class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[570px] md:w-[380px] w-[270px] mx-auto flex lg:mt-[38px] mt-7 border-2 border-[gray-400] rounded-full outline-none">
+            <div class="relative 2xl:mt-28 md:mt-16 sm:mt-12 mt-8">
                 <img src="assets/images/webp/hero-graph1.webp" alt="graph"
-                    class="2xl:max-w-[963px] xl:max-w-[750px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px]">
+                    class="2xl:max-w-[963px] xl:max-w-[895px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px] pointer-events-none">
                 <div class="absolute top-[27%] xl:left-[37%] left-[28%] ">
                     <img src="assets/images/webp/hero-graph2.webp" alt="graph"
-                        class="2xl:max-w-[963px] xl:max-w-[750px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px]">
+                        class="2xl:max-w-[963px] xl:max-w-[895px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px] pointer-events-none">
                 </div>
             </div>
         </div>
     </section>
 
     <!--------------------navtab ------------->
-    <section class="px-3">
+    <section class="px-3 overflow-hidden">
         <div class="container">
             <h2
-                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[1010px] mx-auto text-center pb-8">
+                class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[1010px] mx-auto text-center pb-8">
                 See your revenue grow in<br>
                 real time with our dashboards.</h2>
             <div class="tab-card relative">
                 <img src="assets/images/webp/left-arrow.webp" alt="left-arrow"
-                    class="absolute w-[85px] 2xl:bottom-[-10%] lg:bottom-[-10%] sm:bottom-[-8%] bottom-[-4%] xl:left-[2%] left-[-2%]">
+                    class="absolute w-[85px] 2xl:bottom-[-10%] lg:bottom-[-7%] sm:bottom-[-8%] bottom-[-4%] xl:left-[2%] left-[-2%]">
                 <img src="assets/images/webp/right-arrow.webp" alt="arrow-right"
                     class="absolute max-w-[85px] xl:top-[8%] lg:top-[18%] sm:top-[26%] top-[23%] md:top-[19%]  xl:right-[2%] right-[-3%]">
-                <div class="nav-tabs gap-4 flex flex-wrap justify-center max-w-[1034px] mx-auto">
+                <div class="nav-tabs gap-4 flex flex-wrap justify-center max-w-[1034px] mx-auto overflow-x-auto">
                     <div class="tab py-5 px-8 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab1">CRM Integrations</div>
                     <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
@@ -279,7 +288,7 @@
                         data-target="tab4">Easy, Safe and Secured</div>
                 </div>
                 <div
-                    class="tab-content mt-8 shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-14 py-6 pl-4 pr-4 max-w-[1297px] mx-auto md:pl-10 md:pe-14 custom-box">
+                    class="tab-content mt-10 shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-14 py-6 pl-4 pr-4 max-w-[1297px] mx-auto md:pl-10 md:pe-14 custom-box xl:mb-20 md:mb-10 mb-4">
                     <div id="tab1" class="content active pt-22 max-w-[1297px] mx-auto">
                         <div class="flex gap-5">
                             <img src="assets/images/svg/tick.svg" alt="tick">
@@ -293,7 +302,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis
                                 iste natus error sit voluptatem
                                 accusantium doloremque laudantium, totam rem aperiam,
                                 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -301,13 +310,13 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Duis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
                                 natus error sit voluptatem
                                 accusantium doloremque laudantium, totam rem aperiam, eaque
                                 ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -315,7 +324,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Euis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
@@ -332,7 +341,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet,
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -342,14 +351,14 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Duis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat
                                 nulla pariatur.</p>
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
                                 natus error sit voluptatem
                                 accusantium doloremque
                                 laudantium, totam rem aperiam, eaque
@@ -358,7 +367,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Euis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat
                                 nulla pariatur.</p>
@@ -374,7 +383,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis
                                 iste natus error sit voluptatem
                                 accusantium doloremque
                                 laudantium, totam rem aperiam,
@@ -383,7 +392,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet,
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -393,7 +402,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
                                 natus error sit voluptatem
                                 accusantium doloremque
                                 laudantium, totam rem aperiam, eaque
@@ -402,7 +411,7 @@
                         </div>
                         <div class="flex gap-5 pt-6">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Euis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat
                                 nulla pariatur.</p>
@@ -418,7 +427,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis
                                 iste natus error sit voluptatem
                                 accusantium doloremque
                                 laudantium, totam rem aperiam,
@@ -427,7 +436,7 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet,
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -437,14 +446,14 @@
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Duis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat
                                 nulla pariatur.</p>
                         </div>
                         <div class="flex gap-5 md:pt-6 pt-3">
                             <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste
+                            <p class="max-w-[1144px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
                                 natus error sit voluptatem
                                 accusantium doloremque
                                 laudantium, totam rem aperiam, eaque
@@ -458,10 +467,10 @@
     </section>
 
     <!---------------- marketing-->
-    <section class="lg:pt-28 md:pt-16 pt-16 px-3">
+    <section class="lg:pt-10  pt-8 px-3">
         <div class="container">
             <h2
-                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[790px] mx-auto text-center pb-4">
+                class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[790px] mx-auto text-center pb-4">
                 Marketing analytics that REALLY matter</h2>
             <div class="flex justify-center">
                 <img src="assets/images/webp/marketing-graph.webp" alt="graph">
@@ -641,9 +650,9 @@
     </section>
 
     <!------------------ Campaign Sync --------------->
-    <section class="lg:pb-36 md:pb-20 pb-12 lg:pt-40 md:pt-20 pt-12">
+    <section class="lg:pb-36 md:pb-20 pb-12 lg:pt-40 md:pt-20 pt-12 px-3">
         <div class="container max-w-[1720px] mx-auto">
-            <h2 class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-center">How <span
+            <h2 class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-center">How <span
                     class="text-blue">Main Campaign</span> Sync Works</h2>
             <div class="flex md:pt-16 pt-8 gap-5 flex-wrap justify-center">
                 <div
@@ -686,8 +695,8 @@
     <!---------------------------understand ---------------------->
     <section class="lg:pb-24 md:pb-16 pb-12 px-3">
         <div class="container">
-            <h2 class="leading-120 lg:text-[65px] md:text-5xl text-3xl font-bold max-w-[961px] mx-auto text-center">
-                Understand <span class="text-blue">how many sales</span>are driven from your campaigns</h2>
+            <h2 class="leading-120 2xl:text-[65px] md:text-5xl text-3xl font-bold max-w-[961px] mx-auto text-center">
+                Understand <span class="text-blue">how many sales </span>are driven from your campaigns</h2>
             <div class="lg:flex flex-wrap pt-6">
                 <div class="lg:w-6/12">
                     <p
@@ -704,10 +713,11 @@
                         Conversion Tracking
                         directly.</p>
                     <div class="flex max-w-[347px] pt-14 max-md:flex-col max-md:text-center max-lg:mx-auto">
-                        <button class="font-bold text-xl leading-7 py-3 px-6 bg-blue rounded-[60px] text-white mr-4  hover:bg-white hover:text-black border-[#3b5998] border-2">
+                        <button
+                            class="font-bold text-xl leading-7 py-3 px-6 bg-blue rounded-[60px] text-white mr-4  hover:bg-white hover:text-black border-[#3b5998] border-2 shadow-[0px_1px_3.5px_0px#000000]">
                             Get Started</button>
                         <div class="flex-col max-md:pt-4">
-                            <h2 class="font-bold text-lg leading-7 text-black">Free 14 days trial.</h2>
+                            <h2 class="font-bold text-lg leading-7 text-black ">Free 14 days trial.</h2>
                             <p class="font-medium text-base leading-7 text-black">no credit card required</p>
                         </div>
                     </div>
@@ -724,11 +734,11 @@
     <!-----------------------Privacy Matters------------------------->
     <section class="lg:pb-36 md:pb-20 pb-12 px-3">
         <div class="container max-w-[1573px] mx-auto">
-            <h2 class="font-bold leading-120 lg:text-[65px] md:text-5xl text-3xl text-center">With Main Campaign,
+            <h2 class="font-bold leading-120 2xl:text-[65px] md:text-5xl text-3xl text-center">With Main Campaign,
                 <span class="text-blue">Your Privacy Matters</span>
             </h2>
-            <div class="flex md:pt-[76px] pt-11 md:gap-14 gap-6 flex-wrap justify-center">
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+            <div class="flex lg:pt-[76px] pt-11 md:gap-14 gap-6 flex-wrap justify-center">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/sharing.svg" alt="sharing">
                     </div>
@@ -737,7 +747,7 @@
                         information
                         secure. We will never share any lead data to other companies.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/fb.svg" alt="sharing">
                     </div>
@@ -747,7 +757,7 @@
                         choose to work
                         with us for a reason. Get a trusted partner that puts your security first.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/advanced.svg" alt="sharing">
                     </div>
@@ -756,7 +766,7 @@
                         segmentation,
                         Local store distribution, automation rules and filters, and more. We put security first.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/marketing.svg" alt="sharing">
                     </div>
@@ -773,7 +783,7 @@
     <section id="campaign" class="px-3">
         <div class="container overflow-hidden">
             <h2
-                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black text-center max-w-[887px] mx-auto md:pb-[55px] pb-3">
+                class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-black text-center  mx-auto md:pb-[55px] pb-3">
                 Businesses generate more
                 revenue with Main Campaign</h2>
             <div class="flex gap-12 slick-slider">
@@ -895,15 +905,16 @@
 
     <!-----------------------------Are you ready ----------------------------------->
     <section class="lg:pt-[90px] px-3 relative max-w-[1920px] mx-auto md:pt-16 pt-12 pb-[80px]">
-        <div class="absolute -z-10 left-0 bottom-[-20%]">
+        <div class="absolute -z-10 left-0 bottom-[-20%] 2xl:bottom-[-12%]">
             <img src="assets/images/webp/bottom-layer.webp" alt="layer"
-                class="lg:max-w-[686px] md:max-w-[450px] sm:block hidden">
+                class="lg:max-w-[686px] md:max-w-[450px] sm:block hidden ">
         </div>
         <div class="container">
-            <h2 class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-center">Are you ready to scale?
+            <h2 class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-center">Are you ready to scale?
             </h2>
             <div class="flex justify-center md:pt-7 pt-5">
-                <button class="font-medium text-base leading-4 py-5 px-[30px] bg-blue rounded-[60px] text-white  hover:bg-white hover:text-black border-[#3b5998] border-2">
+                <button
+                    class="font-medium text-base leading-4 sm:py-5 sm:px-[30px] py-3 px-5 bg-blue rounded-[60px] text-white  hover:bg-white hover:text-black border-[#3b5998] border-2">
                     Start My Free Trial</button>
             </div>
             <div class="flex pt-[38px]">
@@ -913,31 +924,31 @@
     </section>
 
     <!------------------------slider-------------------->
-    <section id="footer" class="footer-bg xl:pt-[101px] lg:pt-24 md:pt-16 sm:pt-12 pt-10 px-3 relative">
+    <section id="footer" class="footer-bg xl:pt-[101px] lxl:pt-24 md:pt-16 sm:pt-12 pt-10 px-3 relative">
         <div class="container overflow-hidden">
             <div class="flex slider gap-20 xl:pb-7 transition-all duration-1000 ease-in-out">
                 <img src="assets/images/svg/nog.svg" alt="nog" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[108px] h-7">
+                    class="sm:mr-20 mr-10 max-w-[108px] h-7">
                 <img src="assets/images/svg/air.svg" alt="air" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[118px] h-9">
+                    class="sm:mr-20 mr-10 max-w-[118px] h-9">
                 <img src="assets/images/svg/pro.svg" alt="pro" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 w-[149px] h-[27px]">
+                    class="sm:mr-20 mr-10 w-[149px] h-[27px]">
                 <img src="assets/images/svg/ariba.svg" alt="ari" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 w-[59px] h-[32px]">
+                    class="sm:mr-20 mr-10 w-[59px] h-[32px]">
                 <img src="assets/images/svg/idesign.svg" alt="design" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[106px] h-7">
+                    class="sm:mr-20 mr-10 max-w-[106px] h-7">
                 <img src="assets/images/svg/brooks.svg" alt="brook" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[120px] h-4">
+                    class="sm:mr-20 mr-10 max-w-[120px] h-4">
                 <img src="assets/images/svg/okuma.svg" alt="okuma" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[124px] h-7">
+                    class="sm:mr-20 mr-10 max-w-[124px] h-7">
                 <img src="assets/images/svg/island.svg" alt="island" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 w-[36px] h-[41px]">
+                    class="sm:mr-20 mr-10 w-[36px] h-[41px]">
                 <img src="assets/images/svg/ariba.svg" alt="ari" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 w-[52px] h-[32px]">
+                    class="sm:mr-20 mr-10 w-[52px] h-[32px]">
                 <img src="assets/images/svg/idesign.svg" alt="design" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[106px] h-7">
+                    class="sm:mr-20 mr-10 max-w-[106px] h-7">
                 <img src="assets/images/svg/brooks.svg" alt="brook" data-aos="zoom-in-up" data-aos-duration="1200"
-                    class="mr-20 max-w-[120px] h-4">
+                    class="sm:mr-20 mr-10 max-w-[120px] h-4">
             </div>
             <div class=" 2xl:block hidden gap-3 mx-3">
                 <button
@@ -955,10 +966,10 @@
             <div
                 class="flex xl:pt-16 lg:pt-12 md:pt-8 sm:pt-6 pt-4 justify-between pb-16 max-w-[1600px] mx-auto flex-wrap max-lg:justify-center max-lg:items-center px-3">
                 <div class="w-4/12 max-lg:w-full flex max-lg:justify-center max-lg:items-center max-lg:mb-5">
-                    <img src="assets/images/webp/logo.webp" alt="footerlogo" class="max-w-[250px] h-[53px]">
+                   <a href=""><img src="assets/images/webp/logo.webp" alt="footerlogo" class="max-w-[250px] "></a>
                 </div>
-                <div class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16">
-                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">company</p>
+                <div class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16 ">
+                    <p class="font-bold sm:text-xl text-base leading-6 text-black uppercase">company</p>
                     <ul>
                         <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
                             <a href="#">Home</a>
@@ -974,8 +985,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-2/12 max-lg:w-6/12 flex-col max-lg:items-center flex gap-6 max-md:gap-3">
-                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">Support</p>
+                <div class="w-2/12 max-lg:w-6/12 flex-col max-lg:items-center flex gap-6 max-md:gap-3 ">
+                    <p class="font-bold sm:text-xl text-base leading-6 text-black uppercase">Support</p>
                     <ul>
                         <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
                             <a href="#">Contact us
@@ -989,7 +1000,7 @@
                 </div>
                 <div
                     class="w-4/12 max-lg:w-full max-lg:justify-center max-lg:items-center flex flex-col gap-5 max-md:mt-3">
-                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">subscribe</p>
+                    <p class="font-bold sm:text-xl text-base leading-6 text-black uppercase">subscribe</p>
                     <input type="email" placeholder="Enter you work email" id="email"
                         class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[447px] w-[270px] max-lg:mx-auto flex border-2 border-[#E1E1FF] rounded-2xl outline-none">
                     <p class="font-light text-base leading-6 text-gray-400 max-w-[447px] pt-5 max-md:text-center">By
@@ -1004,8 +1015,8 @@
         </div>
         <div class="border border-dashed border-[#3b5998] max-w-[1600px] mx-auto"></div>
         <div class="container max-w-[1600px] mx-auto">
-            <div class="flex justify-between pt-10 lg:pb-16 sm:pb-12 pb-10 px-3 flex-wrap max-md:justify-center">
-                <a href="" class="font-light text-sm leading-[22px] pt-3 text-gray-400 max-md:pb-6">Privacy Policy •
+            <div class="flex justify-between xl:pt-10 pt-6 xl:pb-16 sm:pb-8 pb-10 px-3 flex-wrap max-md:justify-center">
+                <a href="" class="font-light text-sm leading-[22px] pt-3 text-gray-400 max-md:pb-6 hover:font-semibold">Privacy Policy •
                     Terms &
                     Conditions</a>
                 <div class="flex gap-5">
