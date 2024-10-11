@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/webp/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Primary Meta Tags -->
+    <title>Main campaign</title>
+    <meta name="title" content="Main campaign" />
+    <meta name="description" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Main campaign" />
+    <meta property="og:description" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    <meta property="og:image" content="/meta-tag.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Main campaign" />
+    <meta property="twitter:description" content="The Most Powerful Offline Lead Conversion Data for your Business." />
+    <meta property="twitter:image" content="/meta-tag.png" />
+    
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    screens: {
+                        sm: '576px',
+                        md: '724px',
+                        lg: '984px',
+                        xl: '1140',
+                        '2xl': '1440px',
+                    },
+                },
+                extends: {
+                    boxShadow: {
+                        '3xl': " 0px 4px 30px 0px #00000026",
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: "thicccboi";
+            src: url("../fonts/THICCCBOI-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: "thicccboi";
+            src: url("../fonts/THICCCBOI-Medium.ttf");
+        }
+
+        @font-face {
+            font-family: "thicccboi";
+            src: url("../fonts/THICCCBOI-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: "thicccboi";
+            src: url("../fonts/THICCCBOI-SemiBold.ttf");
+        }
+
+        .nav-tabs {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .tab.active {
+            background: #3B5998;
+            color: white;
+            border: none;
+        }
+
+        .tab-content .content {
+            display: none;
+        }
+
+        .tab-content .content.active {
+            display: block;
+        }
+
+        .slick-list {
+            padding-top: 100px !important;
+            padding-bottom: 40px !important;
+        }
+
+        .body {
+            font-family: "thicccboi";
+            overflow: hidden;
+        }
+
+        .top-btn {
+            visibility: hidden;
+            padding: 10px;
+            z-index: 15;
+            transition: .3s;
+        }
+
+        .top-btn.active {
+            visibility: visible;
+        }
+
+        #footer .slick-dots {
+            display: none !important;
+        }
+
+        #footer .slick-list {
+            padding-top: 0 !important;
+        }
+
+        .bg-blue {
+            background: #3B5998;
+        }
+
+        .text-blue {
+            color: #3B5998;
+        }
+
+        .custom-box {
+            border-radius: 48px !important;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+        }
+
+        .custom-box:before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: -1px;
+            right: -1px;
+            height: 50px;
+            z-index: -10 !important;
+            border-radius: 50px 50px 0 0 !important;
+            background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+        }
+
+        .custom-card {
+            border-radius: 24px !important;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+        }
+
+        .custom-card:before {
+            content: "";
+            position: absolute;
+            top: -4px;
+            left: -1px;
+            right: -1px;
+            height: 50px;
+            z-index: -10 !important;
+            border-radius: 24px 24px 0 0 !important;
+            background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+        }
+
+        .custom-card1 {
+            border-radius: 24px !important;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+        }
+
+        .custom-card1:after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: -1px;
+            right: -1px;
+            height: 50px;
+            z-index: -10 !important;
+            border-radius: 0px 0px 24px 24px !important;
+            background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+        }
+
+        .custom-blueline {
+            border-radius: 48px !important;
+            padding: 20px 25px 30px 25px;
+            background-color: white;
+            position: relative;
+        }
+
+        .custom-blueline::before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: -1px;
+            right: -1px;
+            height: 50px;
+            z-index: -10 !important;
+            border-radius: 48px 48px 0px 0px !important;
+            background-color: #3B5998;
+        }
+
+        .footer-bg {
+            background: #FAF9F6;
+        }
+        .leading-150{
+            line-height: 150% !important;
+        }
+        .leading-120{
+            line-height: 120% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-----------------hero section ------->
+    <section class="lg:pt-20 sm:py-16 py-12 relative max-w-[1920px] mx-auto px-3 lg:pb-36">
+        <img src="assets/images/webp/hero-sideimage.webp" alt="sideimage"
+            class="absolute top-0 right-0 -z-10 2xl:max-w-[1440px] xl:max-w-[1070px] lg:max-w-[800px] md:max-w-[565px] max-w-[379px] sm:block hidden">
+        <div class="container">
+            <div class="flex justify-between">
+                <a href=""><img src="assets/images/webp/logo.webp" alt="logo" class="md:max-w-[200px] max-w-[150px]"></a>
+                <div class="flex md:gap-12 max-md:flex-col gap-4">
+                    <a href="" class="font-semibold text-sm leading-4 text-black pt-3 max-md:pl-2">Login or Register</a>
+                    <button
+                        class="font-semibold text-sm leading-4 text-white bg-blue py-3 px-5 rounded-full hover:bg-white hover:text-black ">
+                        Start Free Trial
+                    </button>
+                </div>
+            </div>
+            <h2
+                class="font-bold xl:text-[80px] lg:text-6xl md:text-5xl text-3xl xl:leading-[95px] lg:leading-[70px] md:leading-[52px] leading-9 max-w-[1317px] text-center mx-auto lg:pt-[73px] pt-12">
+                The Most
+                Powerful Offline Lead Conversion Data for your<span class="text-white max-sm:text-gray-400">Business.
+                </span>
+            </h2>
+            <p class="text-gray-200 text-center pt-4 font-normal text-xl leading-6">Seamless integration with your CRM and Facebook</p>
+            <input type="email" placeholder="Enter you work email" id="email"
+                class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[570px] w-[270px] mx-auto flex lg:mt-[38px] mt-7 max-lg:border-2 border-[gray-400] rounded-full outline-none">
+            <div class="relative lg:mt-28 md:mt-16 sm:mt-12 mt-8">
+                <img src="assets/images/webp/hero-graph1.webp" alt="graph"
+                    class="2xl:max-w-[963px] xl:max-w-[750px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px]">
+                <div class="absolute top-[27%] xl:left-[37%] left-[28%] ">
+                    <img src="assets/images/webp/hero-graph2.webp" alt="graph"
+                        class="2xl:max-w-[963px] xl:max-w-[750px] lg:max-w-[550px] md:max-w-[450px] sm:max-w-[350px] max-w-[245px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------navtab ------------->
+    <section class="px-3">
+        <div class="container">
+            <h2
+                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[1010px] mx-auto text-center pb-8">
+                See your revenue grow in<br>
+                real time with our dashboards.</h2>
+            <div class="tab-card relative">
+                <img src="assets/images/webp/left-arrow.webp" alt="left-arrow"
+                    class="absolute w-[85px] 2xl:bottom-[-10%] lg:bottom-[-10%] sm:bottom-[-8%] bottom-[-4%] xl:left-[2%] left-[-2%]">
+                <img src="assets/images/webp/right-arrow.webp" alt="arrow-right"
+                    class="absolute max-w-[85px] xl:top-[8%] lg:top-[18%] sm:top-[26%] top-[23%] md:top-[19%]  xl:right-[2%] right-[-3%]">
+                <div class="nav-tabs gap-4 flex flex-wrap justify-center max-w-[1034px] mx-auto">
+                    <div class="tab py-5 px-8 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab1">CRM Integrations</div>
+                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab2">Marketing Platform Integrations</div>
+                    <div class="tab py-4 px-7 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none"
+                        data-target="tab3">Analytics</div>
+                    <div class="tab py-4 px-7 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab4">Easy, Safe and Secured</div>
+                </div>
+                <div
+                    class="tab-content mt-8 shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-14 py-6 pl-4 pr-4 max-w-[1297px] mx-auto md:pl-10 md:pe-14 custom-box">
+                    <div id="tab1" class="content active pt-22 max-w-[1297px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div id="tab2" class="content pt-22 max-w-[1297px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div id="tab3" class="content pt-22 max-w-[1297px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div id="tab4" class="content pt-22 max-w-[1297px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1144px] font-normal text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------- marketing-->
+    <section class="lg:pt-28 md:pt-16 pt-16 px-3">
+        <div class="container">
+            <h2
+                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black max-w-[790px] mx-auto text-center pb-4">
+                Marketing analytics that REALLY matter</h2>
+            <div class="flex justify-center">
+                <img src="assets/images/webp/marketing-graph.webp" alt="graph">
+            </div>
+            <!-------tabs -->
+            <div class="tab-card relative">
+                <img src="assets/images/webp/down-arrow.webp" alt="down-arrow"
+                    class="absolute max-w-[85px] xl:left-[74%] lg:bottom-[-11%] lg:left-[72%] left-[60%] sm:bottom-[-8%] bottom-[-9%] max-sm:hidden block">
+
+                <div class="nav-tabs gap-4 flex max-w-[934px] mx-auto flex-wrap justify-center max-md:pt-4">
+                    <div class="tab py-5 px-8 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-50 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab5">Spending</div>
+                    <div class="tab py-4 px-7 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab6">Reach</div>
+                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none"
+                        data-target="tab7">Revenue</div>
+                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab8">Inbound Leads</div>
+                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                        data-target="tab9">Campaigns</div>
+                </div>
+                <div
+                    class="tab-content shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-12 md:px-8 py-8 px-4 max-w-[1123px] mx-auto mt-9 custom-box">
+                    <div id="tab5" class="content active pt-22 max-w-[1123px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 md:pt-6 pt-3">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                    </div>
+                    <div id="tab6" class="content pt-22 max-w-[1123px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                    </div>
+                    <div id="tab7" class="content pt-22 max-w-[1123px] mx-auto">
+                        <div class="flex gap-5">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div id="tab8" class="content pt-22 max-w-[1123px] mx-auto">
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium.</p>
+                        </div>
+
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                    </div>
+                    <div id="tab9" class="content pt-22 max-w-[1123px] mx-auto">
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="max-w-[1003px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque
+                                laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="flex gap-5 pt-6">
+                            <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2437_493)">
+                                        <path
+                                            d="M12.0001 21.5999L6.40011 15.9999L4.53345 17.8666L12.0001 25.3332L28.0001 9.33322L26.1334 7.46655L12.0001 21.5999Z"
+                                            fill="#3B5998" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2437_493">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------ Campaign Sync --------------->
+    <section class="lg:pb-36 md:pb-20 pb-12 pt-40">
+        <div class="container max-w-[1720px] mx-auto">
+            <h2 class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-center">How <span
+                    class="text-blue">Main Campaign</span> Sync Works</h2>
+            <div class="flex md:pt-16 pt-8 gap-5 flex-wrap justify-center">
+                <div
+                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4  pb-12 h-[197px] custom-card">
+                    <p class="text-blue font-bold text-2xl leading-tight text-center">Step #1</p>
+                    <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Facebook user
+                        fills out your Facebook ad’s instant
+                        lead form</p>
+                </div>
+                <div
+                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
+                    <p class="text-blue font-bold text-2xl leading-tight text-center">Step #2</p>
+                    <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Main Campaign
+                        automatically syncs inbound Facebook leads to sales CRM</p>
+                </div>
+                <div
+                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card">
+                    <p class="text-blue font-bold text-2xl leading-tight text-center">Step #3</p>
+                    <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Lead makes a
+                        purchase in an offline setting (example; In person)</p>
+                </div>
+                <div
+                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
+                    <p class="text-blue font-bold text-2xl leading-tight text-center">Step #4</p>
+                    <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Sales team
+                        updates sales CRM with the Lead’s purchase revenue/p>
+                </div>
+                <div
+                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 h-[197px] custom-card">
+                    <p class="text-blue font-bold text-2xl leading-tight text-center">Step #5</p>
+                    <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center pb-4">Main
+                        Campaign attributes Lead’s purchase revenue to Facebook marketing campaigns. Now you know
+                        exactly which campaigns
+                        are driving purchases for your business</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------understand ---------------------->
+    <section class="lg:pb-24 md:pb-16 pb-12 px-3">
+        <div class="container">
+            <h2 class="leading-120 lg:text-[65px] md:text-5xl text-3xl font-bold max-w-[961px] mx-auto text-center">
+                Understand <span class="text-blue">how many sales</span>are driven from your campaigns</h2>
+            <div class="lg:flex flex-wrap pt-6">
+                <div class="lg:w-6/12">
+                    <p
+                        class="font-medium md:text-xl text-base leading-[140%] text-black xl:pt-[110px] md:pt-12 pt-6 max-lg:text-center">
+                        The issue with tracking marketing data in
+                        an online
+                        setting is that you’re not getting the full picture. Although you’re
+                        still making sales offline. it’s nearly impossible to track exactly what online campaigns are
+                        doin the
+                        job, and which
+                        ones aren’t...until now.</p>
+                    <p class="font-medium md:text-xl text-base leading-[140%] text-black pt-5 max-lg:text-center">With
+                        Main Campaign, you can integrate your conversion data with Facebook conversion API and Offline
+                        Conversion Tracking
+                        directly.</p>
+                    <div class="flex max-w-[347px] pt-14 max-md:flex-col max-md:text-center max-lg:mx-auto">
+                        <button class="font-bold text-xl leading-7 py-3 px-6 bg-blue rounded-[60px] text-white mr-4">
+                            Get Started</button>
+                        <div class="flex-col max-md:pt-4">
+                            <h2 class="font-bold text-lg leading-7 text-black">Free 14 days trial.</h2>
+                            <p class="font-medium text-base leading-7 text-black">no credit card required</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-6/12">
+                    <div>
+                        <img src="assets/images/webp/understand-image.webp" alt="understand">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-----------------------Privacy Matters------------------------->
+    <section class="lg:pb-36 md:pb-20 pb-12 px-3">
+        <div class="container max-w-[1573px] mx-auto">
+            <h2 class="font-bold leading-120 lg:text-[65px] md:text-5xl text-3xl text-center">With Main Campaign,
+                <span class="text-blue">Your Privacy Matters</span>
+            </h2>
+            <div class="flex md:pt-[76px] pt-11 md:gap-14 gap-6 flex-wrap justify-center">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                    <div class="flex justify-center">
+                        <img src="assets/images/svg/sharing.svg" alt="sharing">
+                    </div>
+                    <p class="font-bold text-xl leading-7 text-blue pt-[22px] text-center">No Sharing</p>
+                    <p class="font-medium text-lg leading-[155%] text-gray-400 text-center pt-[18px]">We Keep your
+                        information
+                        secure. We will never share any lead data to other companies.</p>
+
+                </div>
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                    <div class="flex justify-center">
+                        <img src="assets/images/svg/fb.svg" alt="sharing">
+                    </div>
+                    <p class="font-bold text-xl leading-7 text-blue pt-[22px] text-center">GDPR, CCPA, PCI, Facebook,
+                        Google compliant</p>
+                    <p class="font-medium text-lg leading-[155%] text-gray-400 text-center pt-[18px]">Big Companies
+                        choose to work
+                        with us for a reason. Get a trusted partner that puts your security first.</p>
+
+                </div>
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                    <div class="flex justify-center">
+                        <img src="assets/images/svg/advanced.svg" alt="sharing">
+                    </div>
+                    <p class="font-bold text-xl leading-7 text-blue pt-[22px] text-center">Advanced Security</p>
+                    <p class="font-medium text-lg leading-[155%] text-gray-400 text-center pt-[18px]">Laser-targeted
+                        segmentation,
+                        Local store distribution, automation rules and filters, and more. We put security first.</p>
+                </div>
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 shadow-[0px_14px_30.5px_0px#00000026] rounded-3xl">
+                    <div class="flex justify-center">
+                        <img src="assets/images/svg/marketing.svg" alt="sharing">
+                    </div>
+                    <p class="font-bold text-xl leading-7 text-blue pt-[22px] text-center">Conset-based Marketing</p>
+                    <p class="font-medium text-lg leading-[155%] text-gray-400 text-center pt-[18px]">Making
+                        conset-based
+                        marketing the most scalable, efficient, and safest method for customer acquistion.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------businesses generate ---------------------->
+    <section id="campaign" class="px-3">
+        <div class="container overflow-hidden">
+            <h2
+                class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-black text-center max-w-[887px] mx-auto md:pb-[55px] pb-3">
+                Businesses generate more
+                revenue with Main Campaign</h2>
+            <div class="flex gap-12 slick-slider">
+                <div
+                    class="md:max-w-[446px] max-w-[317px] bg-white relative shadow-[0px_14px_30.5px_0px#00000026] md:rounded-[48px] rounded-3xl custom-blueline w-full pl-6 mr-12">
+                    <div class="absolute md:left-[17%] left-[14%] md:top-[-27%] top-[-22%]">
+                        <img src="assets/images/svg/next-tech.svg" alt="next-svg" class="max-md:max-w-[225px]">
+                    </div>
+                    <p class="font-bold md:text-2xl text-xl md:pt-28 pt-20 max-md:text-center pb-2">Next Technologies
+                    </p>
+                    <p class="font-medium text-base text-gray-400 leading-6">“Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.”</p>
+                    <div class="flex gap-2 pt-9">
+                        <img src="assets/images/svg/james.svg" alt="person">
+                        <div class="flex-col">
+                            <p class="text-black font-bold sm:text-xl text-lg leading-6">James</p>
+                            <p class="font-medium sm:text-sm text-xs text-gray-400 leading-5 ">Co-Founder at Slash next
+                                technologies.</p>
+                        </div>
+                    </div>
+                    <div class="border-[1px] mt-7"></div>
+                    <div class="flex justify-center md:pt-7 pt-5">
+                        <button
+                            class="font-bold text-sm leading-4 py-[10px] px-[50px] bg-blue rounded-[60px] text-white mr-4">
+                            Read more</button>
+                    </div>
+                </div>
+                <div
+                    class="md:max-w-[446px] max-w-[317px] bg-white relative shadow-[0px_14px_30.5px_0px#00000026] md:rounded-[48px] rounded-3xl custom-blueline w-full pl-6 mr-12">
+                    <div class="absolute md:left-[17%] left-[14%] md:top-[-27%] top-[-22%]">
+                        <img src="assets/images/svg/code.svg" alt="next-svg" class="max-md:max-w-[225px]">
+                    </div>
+                    <p class="font-bold md:text-2xl text-xl md:pt-28 pt-20 max-md:text-center pb-2">CodeSync Inc.</p>
+                    <p class="font-medium text-base text-gray-400 leading-6">“Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.”</p>
+                    <div class="flex gap-2 pt-9">
+                        <img src="assets/images/svg/kathie.svg" alt="person">
+                        <div class="flex-col">
+                            <p class="text-black font-bold sm:text-xl text-lg leading-6">Kathie</p>
+                            <p class="font-medium sm:text-sm text-xs text-gray-400 leading-5 ">Director and Founder at
+                                CodeSync Inc.</p>
+                        </div>
+                    </div>
+                    <div class="border-[1px] mt-7"></div>
+                    <div class="flex justify-center md:pt-7 pt-5">
+                        <button
+                            class="font-bold text-sm leading-4 py-[10px] px-[50px] bg-blue rounded-[60px] text-white mr-4">
+                            Read more</button>
+                    </div>
+                </div>
+                <div
+                    class="md:max-w-[446px] max-w-[317px] bg-white relative shadow-[0px_14px_30.5px_0px#00000026] md:rounded-[48px] rounded-3xl custom-blueline w-full pl-6 mr-12">
+                    <div class="absolute md:left-[17%] left-[14%] md:top-[-27%] top-[-22%]">
+                        <img src="assets/images/svg/Urawarrior.svg" alt="next-svg" class="max-md:max-w-[225px]">
+                    </div>
+                    <p class="font-bold md:text-2xl text-xl md:pt-28 pt-20 max-md:text-center pb-2">Urawarrior</p>
+                    <p class="font-medium text-base text-gray-400 leading-6">“Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.”</p>
+                    <div class="flex gap-2 pt-9">
+                        <img src="assets/images/svg/shaw.svg" alt="person">
+                        <div class="flex-col">
+                            <p class="text-black font-bold sm:text-xl text-lg leading-6">Bershan Shaw</p>
+                            <p class="font-medium sm:text-sm text-xs text-gray-400 leading-5 ">Founder at Urawarrior</p>
+                        </div>
+                    </div>
+                    <div class="border-[1px] mt-7"></div>
+                    <div class="flex justify-center md:pt-7 pt-5">
+                        <button
+                            class="font-bold text-sm leading-4 py-[10px] px-[50px] bg-blue rounded-[60px] text-white mr-4">
+                            Read more</button>
+                    </div>
+                </div>
+                <div
+                    class="md:max-w-[446px] max-w-[317px] bg-white relative shadow-[0px_14px_30.5px_0px#00000026] md:rounded-[48px] rounded-3xl custom-blueline w-full pl-6 mr-12">
+                    <div class="absolute md:left-[17%] left-[14%] md:top-[-27%] top-[-22%]">
+                        <img src="assets/images/svg/code.svg" alt="next-svg" class="max-md:max-w-[225px]">
+                    </div>
+                    <p class="font-bold md:text-2xl text-xl md:pt-28 pt-20 max-md:text-center pb-2">CodeSync Inc.</p>
+                    <p class="font-medium text-base text-gray-400 leading-6">“Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.”</p>
+                    <div class="flex gap-2 pt-9">
+                        <img src="assets/images/svg/kathie.svg" alt="person">
+                        <div class="flex-col">
+                            <p class="text-black font-bold sm:text-xl text-lg leading-6">Kathie</p>
+                            <p class="font-medium sm:text-sm text-xs text-gray-400 leading-5 ">Director and Founder at
+                                CodeSync Inc.</p>
+                        </div>
+                    </div>
+                    <div class="border-[1px] mt-7"></div>
+                    <div class="flex justify-center md:pt-7 pt-5">
+                        <button
+                            class="font-bold text-sm leading-4 py-[10px] px-[50px] bg-blue rounded-[60px] text-white mr-4">
+                            Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------Are you ready ----------------------------------->
+    <section class="lg:pt-[90px] px-3 relative max-w-[1920px] mx-auto md:pt-16 pt-12 pb-[80px]">
+        <div class="absolute -z-10 left-0 bottom-[-20%]">
+            <img src="assets/images/webp/bottom-layer.webp" alt="layer"
+                class="lg:max-w-[686px] md:max-w-[450px] sm:block hidden">
+        </div>
+        <div class="container">
+            <h2 class="font-bold lg:text-[65px] md:text-5xl text-3xl leading-120 text-center">Are you ready to scale?
+            </h2>
+            <div class="flex justify-center md:pt-7 pt-5">
+                <button class="font-medium text-base leading-4 py-5 px-[30px] bg-blue rounded-[60px] text-white">
+                    Start My Free Trial</button>
+            </div>
+            <div class="flex pt-[38px]">
+                <img src="assets/images/webp/scale.webp" alt="scale" class="max-w-[1218px] mx-auto w-full">
+            </div>
+        </div>
+    </section>
+
+    <!------------------------slider-------------------->
+    <section id="footer" class="footer-bg xl:pt-[101px] lg:pt-24 md:pt-16 sm:pt-12 pt-10 px-3 relative">
+        <div class="container overflow-hidden">
+        <div class="flex slider gap-20 xl:pb-7 transition-all duration-1000 ease-in-out">
+            <img src="assets/images/svg/nog.svg" alt="nog" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[108px] h-7">
+            <img src="assets/images/svg/air.svg" alt="air" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[118px] h-9">
+            <img src="assets/images/svg/pro.svg" alt="pro" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 w-[149px] h-[27px]">
+            <img src="assets/images/svg/ariba.svg" alt="ari" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 w-[59px] h-[32px]">
+            <img src="assets/images/svg/idesign.svg" alt="design" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[106px] h-7">
+            <img src="assets/images/svg/brooks.svg" alt="brook" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[120px] h-4">
+            <img src="assets/images/svg/okuma.svg" alt="okuma" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[124px] h-7">
+            <img src="assets/images/svg/island.svg" alt="island" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 w-[36px] h-[41px]">
+            <img src="assets/images/svg/ariba.svg" alt="ari" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 w-[52px] h-[32px]">
+            <img src="assets/images/svg/idesign.svg" alt="design" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[106px] h-7">
+            <img src="assets/images/svg/brooks.svg" alt="brook" data-aos="zoom-in-up" data-aos-duration="1200"
+                class="mr-20 max-w-[120px] h-4">
+        </div>
+            <div class=" 2xl:block hidden gap-3 mx-3">
+                <button
+                    class="prev border bg-white items-center flex justify-center w-9 h-9 rounded-full cursor-pointer transition-all ease-linear duration-200 absolute top-[13%] left-[8%]">
+                    <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21" cy="21.0273" r="21" fill="#EEEEEC" />
+                        <g clip-path="url(#clip0_6713_36)">
+                            <path
+                                d="M24.41 25.6173L19.83 21.0273L24.41 16.4373L23 15.0273L17 21.0273L23 27.0273L24.41 25.6173Z"
+                                fill="#3B5998" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_6713_36">
+                                <rect width="24" height="24" fill="white" transform="translate(9 9.02734)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+                <button
+                    class="next  border hover:bg-white items-center flex justify-center w-9 h-9 rounded-full cursor-pointer transition-all ease-linear duration-200 absolute top-[13%] right-[9%]">
+                    <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21" cy="21" r="21" transform="matrix(-1 0 0 1 42 0.0273438)" fill="#EEEEEC" />
+                        <g clip-path="url(#clip0_6713_35)">
+                            <path
+                                d="M17.59 25.6173L22.17 21.0273L17.59 16.4373L19 15.0273L25 21.0273L19 27.0273L17.59 25.6173Z"
+                                fill="#3B5998" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_6713_35">
+                                <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 33 9.02734)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="border-[1px] border-dashed border-[#3B5998] max-w-[1600px] mx-auto"></div>
+        <div class="container">
+            <div
+                class="flex xl:pt-16 lg:pt-12 md:pt-8 sm:pt-6 pt-4 justify-between pb-16 max-w-[1600px] mx-auto flex-wrap max-lg:justify-center max-lg:items-center px-3">
+                <div class="w-4/12 max-lg:w-full flex max-lg:justify-center max-lg:items-center max-lg:mb-5">
+                    <img src="assets/images/webp/logo.webp" alt="footerlogo" class="max-w-[250px] h-[53px]">
+                </div>
+                <div class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16">
+                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">company</p>
+                    <ul>
+                        <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">About us</a>
+                        </li>
+                        <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">Start free trial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-2/12 max-lg:w-6/12 flex-col max-lg:items-center flex gap-6 max-md:gap-3">
+                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">Support</p>
+                    <ul>
+                        <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">Contact us
+                            </a>
+                        </li>
+                        <li class="font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
+                            <a href="#">
+                                FAQs</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div
+                    class="w-4/12 max-lg:w-full max-lg:justify-center max-lg:items-center flex flex-col gap-5 max-md:mt-3">
+                    <p class="font-bold text-xl leading-6 text-black pb-6 uppercase">subscribe</p>
+                    <input type="email" placeholder="Enter you work email" id="email"
+                        class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[447px] w-[270px] max-lg:mx-auto flex border-2 border-[#E1E1FF] rounded-2xl outline-none">
+                    <p class="font-light text-base leading-6 text-gray-400 max-w-[447px] pt-5 max-md:text-center">By
+                        submitting your
+                        email
+                        you agree to our Terms of Use and Sale and Privacy Policy. You will receive email
+                        communications from us for marketing, informational, and promotional purposes and can
+                        opt-out at
+                        any time.</p>
+                </div>
+            </div>
+        </div>
+        <div class="border border-dashed border-[#3b5998] max-w-[1600px] mx-auto"></div>
+        <div class="container max-w-[1600px] mx-auto">
+            <div class="flex justify-between pt-10 lg:pb-16 sm:pb-12 pb-10 px-3 flex-wrap max-md:justify-center">
+                <a href="" class="font-light text-sm leading-[22px] pt-3 text-gray-400 max-md:pb-6">Privacy Policy •
+                    Terms &
+                    Conditions</a>
+                <div class="flex gap-5">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="assets/images/svg/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="assets/images/svg/insta.svg" alt="instagram">
+                    </a>
+                    <a href="https://in.linkedin.com/" target="_blank">
+                        <img src="assets/images/svg/link.svg" alt="linkdin">
+                    </a>
+                    <a href="https://www.cricbuzz.com/" target="_blank">
+                        <img src="assets/images/svg/cb.svg" alt="cb">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="top-btn w-14 h-14 rounded-full fixed bottom-7 right-7 bg-blue z-20 p-2 cursor-pointer flex justify-center items-center transition">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="white" class="bi bi-chevron-double-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                <path fill-rule="evenodd"
+                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+            </svg>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
