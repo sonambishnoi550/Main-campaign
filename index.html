@@ -156,7 +156,7 @@
         .custom-box:before {
             content: "";
             position: absolute;
-            top: -8px;
+            top: -6px;
             left: -1px;
             right: -1px;
             height: 50px;
@@ -222,6 +222,10 @@
             background-color: #3B5998;
         }
 
+        .box-shadow {
+            box-shadow: 0px 4px 30px 0px #00000026
+        }
+
         .footer-bg {
             background: #FAF9F6;
         }
@@ -236,6 +240,7 @@
 
         .slick-dots li button:before {
             font-size: 14px !important;
+            color: #3B5998 !important;
         }
     </style>
 </head>
@@ -244,14 +249,14 @@
     <!-----------------hero section ------->
     <section class="lg:pt-20 sm:py-16 py-12 relative max-w-[1920px] mx-auto px-3 2xl:pb-36 md:pb-28">
         <img src="assets/images/webp/hero-sideimage.webp" alt="sideimage"
-            class="absolute top-0 right-0 -z-10 2xl:max-w-[1440px] xl:max-w-[1070px] lg:max-w-[800px] md:max-w-[565px] max-w-[379px] sm:block hidden">
+            class="absolute top-0 2xl:right-[-7.5%] right-0 -z-10 2xl:max-w-[1440px] xl:max-w-[1070px] lg:max-w-[800px] md:max-w-[565px] max-w-[379px] sm:block hidden">
         <div class="container">
             <div class="flex justify-between">
                 <a href=""><img src="assets/images/webp/logo.webp" alt="logo"
                         class="md:max-w-[200px] max-w-[150px]"></a>
-                <div class="flex md:gap-12 max-md:flex-col gap-4">
+                <div class="flex  max-md:flex-col">
                     <a href=""
-                        class="font-semibold text-sm leading-4 text-black pt-3 max-md:pl-2 hover:text-black hover:border-[#3b5998] hover:border-2 py-3 px-5 rounded-full">Login
+                        class="md:mr-[50px] font-semibold text-sm leading-4 text-black pt-3 max-md:pl-2 hover:text-black hover:border-[#3b5998] hover:border-2 py-3 px-5 rounded-full">Login
                         or Register</a>
                     <button
                         class="font-semibold text-sm leading-4 text-white bg-blue py-3 px-5 rounded-full hover:bg-white hover:text-black border-[#3b5998] border-2">
@@ -262,7 +267,7 @@
             <h2
                 class="font-bold 2xl:text-[80px] lg:text-6xl md:text-5xl text-3xl xl:leading-[95px] lg:leading-[70px] md:leading-[52px] leading-9 max-w-[1317px] text-center mx-auto lg:pt-[73px] pt-6">
                 The Most
-                Powerful Offline Lead Conversion Data for your <span class="text-white max-sm:text-gray-400">Business.
+                Powerful Offline Lead Conversion Data for your <span class="text-white max-sm:text-gray-400">Business
                 </span>
             </h2>
             <p class="text-gray-200 text-center pt-4 font-normal sm:text-xl text-base leading-6 max-sm:text-black">
@@ -294,7 +299,7 @@
                 <img src="assets/images/webp/right-arrow.webp" alt="arrow-right"
                     class="absolute max-w-[85px] xl:top-[8%] lg:top-[18%] sm:top-[26%] top-[23%] md:top-[19%] xl:right-[2%] right-[-3%] sm:block hidden">
                 <div class="nav-tabs gap-4 flex flex-wrap justify-center max-w-[1034px] mx-auto overflow-x-auto">
-                    <div class="tab py-5 px-8 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                    <div class="tab py-5 px-8 rounded-full text-white bg-blue font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab1">CRM Integrations</div>
                     <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab2">Marketing Platform Integrations</div>
@@ -306,7 +311,7 @@
                 <div
                     class="tab-content mt-10 shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-14 py-6 pl-4 pr-4 max-w-[1297px] mx-auto md:pl-10 md:pe-14 custom-box xl:mb-20 md:mb-10 mb-4">
                     <div id="tab1" class="content active pt-22 max-w-[1297px] mx-auto">
-                        <div class="flex gap-5">
+                        <div class="flex gap-5 items-start">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="max-w-[1144px] font-normal text-lg leading-150">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do
@@ -316,7 +321,7 @@
                                 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                 pariatur.</p>
                         </div>
-                        <div class="flex gap-5 md:pt-6 pt-3">
+                        <div class="flex gap-5 md:pt-6 pt-3 items-start">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="max-w-[1144px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis
                                 iste natus error sit voluptatem
@@ -324,13 +329,13 @@
                                 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                                 explicabo.</p>
                         </div>
-                        <div class="flex gap-5 md:pt-6 pt-3">
+                        <div class="flex gap-5 md:pt-6 pt-3 items-start">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="max-w-[1144px] font-medium text-lg leading-150">Duis aute irure dolor in
                                 reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
-                        <div class="flex gap-5 md:pt-6 pt-3">
+                        <div class="flex gap-5 md:pt-6 pt-3 items-start">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="max-w-[1144px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
                                 natus error sit voluptatem
@@ -338,7 +343,7 @@
                                 ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                                 explicabo.</p>
                         </div>
-                        <div class="flex gap-5 md:pt-6 pt-3">
+                        <div class="flex gap-5 md:pt-6 pt-3 items-start">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="max-w-[1144px] font-medium text-lg leading-150">Euis aute irure dolor in
                                 reprehenderit in voluptate velit esse
@@ -492,24 +497,24 @@
                 <img src="assets/images/webp/marketing-graph.webp" alt="graph">
             </div>
             <!-------tabs -->
-            <div class="tab-card relative">
+            <div>
                 <img src="assets/images/webp/down-arrow.webp" alt="down-arrow"
                     class="absolute max-w-[85px] xl:left-[74%] lg:bottom-[-11%] lg:left-[72%] left-[60%] sm:bottom-[-8%] bottom-[-9%] max-sm:hidden block">
-                <div class="nav-tabs gap-4 flex max-w-[934px] mx-auto flex-wrap justify-center max-md:pt-4">
-                    <div class="tab py-5 px-8 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-50 font-medium text-xl leading-none whitespace-nowrap"
+                <div class="gap-4 flex max-w-[934px] mx-auto flex-wrap justify-center max-md:pt-4">
+                    <div class="py-5 px-8  rounded-full text-white bg-blue font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab5">Spending</div>
-                    <div class="tab py-4 px-7 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                    <div class="py-4 px-7 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab6">Reach</div>
-                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none"
+                    <div class="py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none"
                         data-target="tab7">Revenue</div>
-                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                    <div class="py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab8">Inbound Leads</div>
-                    <div class="tab py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
+                    <div class="py-4 px-6 border-2 border-[gray-400] rounded-full text-gray-400 bg-gray-100 font-medium text-xl leading-none whitespace-nowrap"
                         data-target="tab9">Campaigns</div>
                 </div>
                 <div
-                    class="tab-content shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-12 md:px-8 py-8 px-4 max-w-[1123px] mx-auto mt-9 custom-box">
-                    <div id="tab5" class="content active pt-22 max-w-[1123px] mx-auto">
+                    class="shadow-[0px_14px_30.5px_0px#00000026] rounded-[48px] md:py-12 md:px-8 py-8 px-4 max-w-[1123px] mx-auto mt-9 custom-box">
+                    <div class="pt-22 max-w-[1123px] mx-auto">
                         <div class="flex gap-5">
                             <img src="assets/images/svg/tick.svg" alt="tick">
                             <p class="font-medium text-lg leading-150">Lorem ipsum dolor sit amet, consectetur
@@ -538,128 +543,6 @@
                                 explicabo.</p>
                         </div>
                     </div>
-                    <div id="tab6" class="content pt-22 max-w-[1123px] mx-auto">
-                        <div class="flex gap-5">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque laudantium.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat
-                                nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
-                                natus error sit voluptatem
-                                accusantium doloremque
-                                laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                                explicabo.</p>
-                        </div>
-                    </div>
-                    <div id="tab7" class="content pt-22 max-w-[1123px] mx-auto">
-                        <div class="flex gap-5">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
-                                natus error sit voluptatem
-                                accusantium doloremque
-                                laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                                explicabo.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat
-                                nulla pariatur.</p>
-                        </div>
-                    </div>
-                    <div id="tab8" class="content pt-22 max-w-[1123px] mx-auto">
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat
-                                nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque laudantium.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1003px] font-medium text-lg leading-150">Ut perspiciatis unde omnis iste
-                                natus error sit voluptatem
-                                accusantium doloremque
-                                laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                                explicabo.</p>
-                        </div>
-                    </div>
-                    <div id="tab9" class="content pt-22 max-w-[1123px] mx-auto">
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Euis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat
-                                nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="max-w-[1003px] font-medium text-lg leading-150">Sed ut perspiciatis unde omnis
-                                iste natus error sit voluptatem
-                                accusantium doloremque
-                                laudantium, totam rem aperiam,
-                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                                explicabo.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="flex gap-5 pt-6">
-                            <img src="assets/images/svg/tick.svg" alt="tick">
-                            <p class="font-medium text-lg leading-150">Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse
-                                cillum dolore eu fugiat
-                                nulla pariatur.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -671,33 +554,28 @@
             <h2 class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-center">How <span
                     class="text-blue">Main Campaign</span> Sync Works</h2>
             <div class="flex md:pt-16 pt-8 gap-5 flex-wrap justify-center">
-                <div
-                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card">
+                <div class="box-shadow max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card">
                     <p class="text-blue font-bold text-2xl leading-tight text-center">Step #1</p>
                     <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Facebook user
                         fills out your Facebook ad’s instant
                         lead form</p>
                 </div>
-                <div
-                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
+                <div class="box-shadow max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
                     <p class="text-blue font-bold text-2xl leading-tight text-center">Step #2</p>
                     <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Main Campaign
                         automatically syncs inbound Facebook leads to sales CRM</p>
                 </div>
-                <div
-                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card">
+                <div class="box-shadow max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card">
                     <p class="text-blue font-bold text-2xl leading-tight text-center">Step #3</p>
                     <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Lead makes a
                         purchase in an offline setting (example; In person)</p>
                 </div>
-                <div
-                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
+                <div class="box-shadow max-w-[327px] rounded-3xl px-5 pt-4 pb-12 h-[197px] custom-card1">
                     <p class="text-blue font-bold text-2xl leading-tight text-center">Step #4</p>
                     <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center">Sales team
                         updates sales CRM with the Lead’s purchase revenue/p>
                 </div>
-                <div
-                    class="shadow-[0px_14px_30.5px_0px#00000026] max-w-[327px] rounded-3xl px-5 pt-4 h-[197px] custom-card">
+                <div class="box-shadow max-w-[327px] rounded-3xl px-5 pt-4 h-[197px] custom-card">
                     <p class="text-blue font-bold text-2xl leading-tight text-center">Step #5</p>
                     <p class="font-medium text-base leading-normal text-gray-400 pt-[14px] text-center pb-4">Main
                         Campaign attributes Lead’s purchase revenue to Facebook marketing campaigns. Now you know
@@ -711,7 +589,7 @@
     <!---------------------------understand ---------------------->
     <section class="lg:pb-24 md:pb-16 pb-12 px-3">
         <div class="container">
-            <h2 class="leading-120 2xl:text-[65px] md:text-5xl text-3xl font-bold max-w-[961px] mx-auto text-center">
+            <h2 class="leading-120 2xl:text-[65px] md:text-5xl text-3xl font-bold max-w-[991px] mx-auto text-center">
                 Understand <span class="text-blue">how many sales </span>are driven from your campaigns</h2>
             <div class="lg:flex flex-wrap pt-6">
                 <div class="lg:w-6/12">
@@ -740,7 +618,7 @@
                 </div>
                 <div class="lg:w-6/12">
                     <div>
-                        <img src="assets/images/webp/understand-image.webp" alt="understand">
+                        <img src="assets/images/webp/understand-image.webp" alt="understand" class="2xl:max-w-[855px]">
                     </div>
                 </div>
             </div>
@@ -754,8 +632,7 @@
                 <span class="text-blue">Your Privacy Matters</span>
             </h2>
             <div class="flex lg:pt-[76px] pt-11 md:gap-14 gap-6 flex-wrap justify-center">
-                <div
-                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/sharing.svg" alt="sharing">
                     </div>
@@ -764,8 +641,7 @@
                         information
                         secure. We will never share any lead data to other companies.</p>
                 </div>
-                <div
-                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/fb.svg" alt="sharing">
                     </div>
@@ -775,8 +651,7 @@
                         choose to work
                         with us for a reason. Get a trusted partner that puts your security first.</p>
                 </div>
-                <div
-                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/advanced.svg" alt="sharing">
                     </div>
@@ -785,8 +660,7 @@
                         segmentation,
                         Local store distribution, automation rules and filters, and more. We put security first.</p>
                 </div>
-                <div
-                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/marketing.svg" alt="sharing">
                     </div>
@@ -803,7 +677,7 @@
     <section id="campaign" class="px-3">
         <div class="container overflow-hidden">
             <h2
-                class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-black text-center mx-auto md:pb-[55px] pb-3">
+                class="font-bold 2xl:text-[65px] md:text-5xl text-3xl leading-120 text-black text-center mx-auto md:pb-[55px] pb-3 max-w-[887px]">
                 Businesses generate more
                 revenue with Main Campaign</h2>
             <div class="flex gap-12 slick-slider">
@@ -975,9 +849,11 @@
             <div
                 class="flex xl:pt-16 lg:pt-12 md:pt-8 sm:pt-6 pt-4 justify-between pb-16 max-w-[1600px] mx-auto flex-wrap max-lg:justify-center max-lg:items-center px-3">
                 <div class="w-4/12 max-lg:w-full flex max-lg:justify-center max-lg:items-center max-lg:mb-5">
-                    <a href=""><img src="assets/images/webp/logo.webp" alt="footerlogo" class="xl:max-w-[250px] max-w-[200px]"></a>
+                    <a href=""><img src="assets/images/webp/logo.webp" alt="footerlogo"
+                            class="xl:max-w-[250px] max-w-[200px]"></a>
                 </div>
-                <div class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16 xl:-ml-52">
+                <div
+                    class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16 xl:-ml-32">
                     <p class="font-bold sm:text-xl text-base leading-6 text-black uppercase">company</p>
                     <ul>
                         <li class=" font-light text-base leading-6 text-gray-400 pb-[10px] max-md:text-center">
