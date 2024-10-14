@@ -1,0 +1,184 @@
+body {
+      font-family: "thicccboi", sans-serif;
+      scroll-behavior: smooth;
+  }
+
+  @font-face {
+      font-family: thicccboi;
+      src: url(../fonts/THICCCBOI-Light.ttf);
+      font-weight: 300;
+  }
+
+  @font-face {
+      font-family: thicccboi;
+      src: url(../fonts/THICCCBOI-Regular.ttf);
+      font-weight: 400;
+  }
+
+  @font-face {
+      font-family: thicccboi;
+      src: url(../fonts/THICCCBOI-Medium.ttf);
+      font-weight: 500;
+  }
+
+  @font-face {
+      font-family: thicccboi;
+      src: url(../fonts/THICCCBOI-SemiBold.ttf);
+      font-weight: 600;
+  }
+
+  @font-face {
+      font-family: thicccboi;
+      src: url(assets/fonts/THICCCBOI-Bold.ttf);
+      font-weight: 700;
+  }
+
+  .nav-tabs {
+      display: flex;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+
+  .tab.active {
+      background: #3B5998;
+      color: white;
+      border: none;
+  }
+
+  .tab-content .content {
+      display: none;
+  }
+
+  .tab-content .content.active {
+      display: block;
+  }
+
+  .slick-list {
+      padding-top: 100px !important;
+      padding-bottom: 40px !important;
+  }
+
+  .top-btn {
+      visibility: hidden;
+      padding: 10px;
+      z-index: 15;
+      transition: .3s;
+  }
+
+  .top-btn.active {
+      visibility: visible;
+  }
+
+  #footer .slick-dots {
+      display: none !important;
+  }
+
+  #footer .slick-list {
+      padding-top: 0 !important;
+  }
+
+  .bg-blue {
+      background: #3B5998;
+  }
+
+  .text-blue {
+      color: #3B5998;
+  }
+
+  .box {
+      border-radius: 48px !important;
+      padding: 20px;
+      background-color: white;
+      position: relative;
+  }
+
+  .box:before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: -1px;
+      right: -1px;
+      height: 50px;
+      z-index: -10 !important;
+      border-radius: 50px 50px 0 0 !important;
+      background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+  }
+
+  .card {
+      border-radius: 24px !important;
+      padding: 20px;
+      background-color: white;
+      position: relative;
+  }
+
+  .card:before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: -1px;
+      right: -1px;
+      height: 50px;
+      z-index: -10 !important;
+      border-radius: 24px 24px 0 0 !important;
+      background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+  }
+
+  .custom-card {
+      border-radius: 24px !important;
+      padding: 20px;
+      background-color: white;
+      position: relative;
+  }
+
+  .custom-card:after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: -1px;
+      right: -1px;
+      height: 50px;
+      z-index: -10 !important;
+      border-radius: 0px 0px 24px 24px !important;
+      background: linear-gradient(259.08deg, #50EDFF -5.05%, #48B8DA 63.97%, #3B5998 130.42%);
+  }
+
+  .blue-line {
+      border-radius: 48px !important;
+      padding: 20px 25px 30px 25px;
+      background-color: white;
+      position: relative;
+  }
+
+  .blue-line::before {
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: -1px;
+      right: -1px;
+      height: 50px;
+      z-index: -10 !important;
+      border-radius: 48px 48px 0px 0px !important;
+      background-color: #3B5998;
+  }
+
+  .box-shadow {
+      box-shadow: 0px 4px 30px 0px #00000026
+  }
+
+  .footer-bg {
+      background: #FAF9F6;
+  }
+
+  .leading-150 {
+      line-height: 150% !important;
+  }
+
+  .leading-120 {
+      line-height: 120% !important;
+  }
+
+  .slick-dots li button:before {
+      font-size: 14px !important;
+      color: #3B5998 !important;
+  }
+
