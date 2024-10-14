@@ -54,7 +54,7 @@ $('.slick-slider').slick({
     ]
 });
 // --------------second slider----------
-$('.slider').slick({
+$('.footer-slider').slick({
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
