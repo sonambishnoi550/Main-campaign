@@ -47,31 +47,46 @@
                         '2xl': '1440px',
                     },
                 },
-                  boxShadow: {           
+                boxShadow: {
                     'common-shadow': '0px 4px 30px 0px #00000026',
                 }
             }
         }
     </script>
     <style>
-        @font-face {
-            font-family: "thicccboi";
-            src: url("../fonts/THICCCBOI-Bold.ttf");
+        body{
+            font-family: "thicccboi", sans-serif;
+            scroll-behavior: smooth;
         }
 
         @font-face {
-            font-family: "thicccboi";
-            src: url("../fonts/THICCCBOI-Medium.ttf");
+            font-family: thicccboi;
+            src: url(../fonts/THICCCBOI-Light.ttf);
+            font-weight: 300;
         }
 
         @font-face {
-            font-family: "thicccboi";
-            src: url("../fonts/THICCCBOI-Regular.ttf");
+            font-family: thicccboi;
+            src: url(../fonts/THICCCBOI-Regular.ttf);
+            font-weight: 400;
         }
 
         @font-face {
-            font-family: "thicccboi";
-            src: url("../fonts/THICCCBOI-SemiBold.ttf");
+            font-family: thicccboi;
+            src: url(../fonts/THICCCBOI-Medium.ttf);
+            font-weight: 500;
+        }
+
+        @font-face {
+            font-family: thicccboi;
+            src: url(../fonts/THICCCBOI-SemiBold.ttf);
+            font-weight: 600;
+        }
+
+        @font-face {
+            font-family: thicccboi;
+            src: url(assets/fonts/THICCCBOI-Bold.ttf);
+            font-weight: 700;
         }
 
         .nav-tabs {
@@ -221,7 +236,7 @@
 
         .slick-dots li button:before {
             font-size: 14px !important;
-      }
+        }
     </style>
 </head>
 
@@ -250,7 +265,8 @@
                 Powerful Offline Lead Conversion Data for your <span class="text-white max-sm:text-gray-400">Business.
                 </span>
             </h2>
-            <p class="text-gray-200 text-center pt-4 font-normal sm:text-xl text-base leading-6 max-sm:text-black">Seamless integration with your CRM
+            <p class="text-gray-200 text-center pt-4 font-normal sm:text-xl text-base leading-6 max-sm:text-black">
+                Seamless integration with your CRM
                 and Facebook</p>
             <input type="email" placeholder="Enter you work email" id="email"
                 class="text-gray-400 md:py-5 py-4 pl-5 xl:w-[570px] md:w-[380px] w-[270px] mx-auto flex lg:mt-[38px] mt-7 border-2 border-[gray-400] rounded-full outline-none">
@@ -738,7 +754,8 @@
                 <span class="text-blue">Your Privacy Matters</span>
             </h2>
             <div class="flex lg:pt-[76px] pt-11 md:gap-14 gap-6 flex-wrap justify-center">
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div
+                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/sharing.svg" alt="sharing">
                     </div>
@@ -747,7 +764,8 @@
                         information
                         secure. We will never share any lead data to other companies.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div
+                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/fb.svg" alt="sharing">
                     </div>
@@ -757,7 +775,8 @@
                         choose to work
                         with us for a reason. Get a trusted partner that puts your security first.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div
+                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/advanced.svg" alt="sharing">
                     </div>
@@ -766,7 +785,8 @@
                         segmentation,
                         Local store distribution, automation rules and filters, and more. We put security first.</p>
                 </div>
-                <div class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
+                <div
+                    class="max-w-[351px] px-[26px] pt-8 pb-12 rounded-3xl border border-[gray-300] hover:border-transparent border-opacity-25 transition-300ms hover:shadow-common-shadow">
                     <div class="flex justify-center">
                         <img src="assets/images/svg/marketing.svg" alt="sharing">
                     </div>
@@ -966,7 +986,7 @@
             <div
                 class="flex xl:pt-16 lg:pt-12 md:pt-8 sm:pt-6 pt-4 justify-between pb-16 max-w-[1600px] mx-auto flex-wrap max-lg:justify-center max-lg:items-center px-3">
                 <div class="w-4/12 max-lg:w-full flex max-lg:justify-center max-lg:items-center max-lg:mb-5">
-                   <a href=""><img src="assets/images/webp/logo.webp" alt="footerlogo" class="max-w-[250px] "></a>
+                    <a href=""><img src="assets/images/webp/logo.webp" alt="footerlogo" class="max-w-[250px] "></a>
                 </div>
                 <div class="w-2/12 max-lg:w-6/12 flex-col flex max-lg:items-center gap-6 max-md:gap-3 max-lg:pt-16 ">
                     <p class="font-bold sm:text-xl text-base leading-6 text-black uppercase">company</p>
@@ -1016,7 +1036,9 @@
         <div class="border border-dashed border-[#3b5998] max-w-[1600px] mx-auto"></div>
         <div class="container max-w-[1600px] mx-auto">
             <div class="flex justify-between xl:pt-10 pt-6 xl:pb-16 sm:pb-8 pb-10 px-3 flex-wrap max-md:justify-center">
-                <a href="" class="font-light text-sm leading-[22px] pt-3 text-gray-400 max-md:pb-6 hover:font-semibold">Privacy Policy •
+                <a href=""
+                    class="font-light text-sm leading-[22px] pt-3 text-gray-400 max-md:pb-6 hover:font-semibold">Privacy
+                    Policy •
                     Terms &
                     Conditions</a>
                 <div class="flex gap-5">
